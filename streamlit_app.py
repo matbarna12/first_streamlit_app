@@ -23,7 +23,7 @@ import requests
 
 streamlit.header("Fruityvice Fruit Advice!")
 
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/" + "kiwi")
 
 
 # normalise the json structure
